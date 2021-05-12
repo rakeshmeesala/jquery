@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+//jquery
+    $(document).ready(function(){
+        $('#btnClick').click(function(){
+            $(this).val('Clicked Again');
+            //$(this).css('color','blue');
+            $(this).css({'color':'blue','font-size':'25px'});
+            alert('Good Evening Again!!!');    
+        });
+    //$('input[type="button"]')
+    });
+</script>
+</head>
+<body>
+    <input type="button" value="Click" id="btnClick"/> &nbsp;
+    
+    <input type="button" value="Press" />
+</body>
+</html>
